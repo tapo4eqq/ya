@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная страница</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li>Главная</li>
+                <li><a href="places.html">Любимые места</a></li>
+                <li><a href="books.html">Любимые книги</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Обо мне</h1>
+        <h8><img src="pic/z.png" alt="Мое фото" class="profile-photo"></h8>
+        <p>Я миша, мне 17 лет, и я люблю спать</p>
+
+        <h2>Мои увлечения</h2>
+        <ul>
+            <li>Заниматься спортом</li>
+            <li>Играть в игры</li>
+            <li>спать</li>
+        </ul>
+
+        <p>это мои кенты:</p>
+        <ul>
+            <li><a href="https://t.me/winderlav">Кирилл</a></li>
+            <li><a href="https://t.me/lerkavvl">Лера</a></li>
+            <li><a href="https://t.me/likallk">Лика</a></li>
+        </ul>
+
+        <h2>Новостная лента</h2>
+        <div id="news-feed">
+            <!-- Здесь будет автоматически добавляться информация с других страниц -->
+        </div>
+
+        <h2>Оставьте комментарий</h2>
+        <form id="comment-form">
+            <label for="comment">Комментарий:</label><br>
+            <textarea id="comment" rows="3"></textarea><br>
+            <button type="submit">Отправить</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>© 2025 Мой сайт</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

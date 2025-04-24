@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Любимые места</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li>Любимые места</li>
+                <li><a href="books.html">Любимые книги</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Мои любимые места</h1>
+
+        <div class="places-grid">
+            <div class="place">
+                <img src="pic/башня.png" alt="Место 1">
+                <h3>Место 1</h3>
+                <p>посетил остакинскую башню</p>
+                <a href="https://yandex.ru/maps/-/CHfqNPIG" target="_blank">Узнать больше</a>
+                <a href="#" class="like-button" data-place="place1">Лайк</a>
+            </div>
+
+            <div class="place">
+                <img src="pic/sad.png" alt="Место 2">
+                <h3>Место 2</h3>
+                <p>ботанический сад</p>
+                <a href="https://yandex.ru/maps/-/CHfqNPIG" target="_blank">Узнать больше</a>
+                <a href="#" class="like-button" data-place="place2">Лайк</a>
+            </div>
+
+            <div class="place">
+                <img src="pic/москва-сити.png" alt="Место 3">
+                <h3>Место 3</h3>
+                <p>Москва-сити.</p>
+                <a href="https://yandex.ru/maps/-/CHfqVQ17" target="_blank">Узнать больше</a>
+                <a href="#" class="like-button" data-place="place3">Лайк</a>
+            </div>
+        </div>
+
+        <h2>Добавление/удаление мест (временно реализовано только как ссылка)</h2>
+        <p><a href="#">Добавить новое место</a></p>
+    </main>
+
+    <footer>
+        <p>© 2025 Мой сайт</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
